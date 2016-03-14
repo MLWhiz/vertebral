@@ -23,7 +23,7 @@ Methodology:
 
 Three classifiers (RandomForestClassifier, ExtraTreesClassifier and a GradientBoostingClassifier
 are built to be stacked by a LogisticRegression in the end.
-
+ 
 Some terminologies first, since everyone has their own, I'll define mine to be clear:
 - DEV SET, this is to be split into the training and validation data. It will be cross-validated.
 - TEST SET, this is the unseen data to validate the generalization error of our final classifier. This
